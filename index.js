@@ -15,8 +15,9 @@
 		 return alter(
 		  this,
 		  arr => arr[method](...args)
-		 )}
-		}), {});
+		 )
+		}
+	}), {});
 
  Object.defineProperty(Array.prototype, 'im', {
 	 get() {
